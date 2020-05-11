@@ -1,0 +1,72 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    RewriteBase /
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+	RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_mime.c>
+ AddType text/css .css
+ AddType application/x-javascript .js
+ AddType application/javascript .js2
+ AddType text/javascript .js3
+ AddType text/x-js .js4
+ AddType text/html .html .htm
+ AddType image/svg+xml .svg .svgz
+ AddType text/plain .txt
+ AddType image/gif .gif
+ AddType image/x-icon .ico
+ AddType image/jpeg .jpg .jpeg .jpe
+ AddType application/json .json
+ AddType application/pdf .pdf
+ AddType image/png .png
+</IfModule>
+
+<IfModule mod_expires.c>
+ ExpiresActive On
+ ExpiresByType text/css A31536000
+ ExpiresByType application/x-javascript A31536000
+ ExpiresByType application/javascript A31536000
+ ExpiresByType text/javascript A31536000
+ ExpiresByType text/x-js A31536000
+ ExpiresByType text/html A3600
+ ExpiresByType image/svg+xml A31536000
+ ExpiresByType text/plain A3600
+ ExpiresByType image/gif A31536000
+ ExpiresByType application/x-gzip A31536000
+ ExpiresByType image/x-icon A31536000
+ ExpiresByType image/jpeg A31536000
+ ExpiresByType application/json A31536000
+ ExpiresByType application/pdf A31536000
+ ExpiresByType image/png A31536000
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+Redirect 301 /category/gory/ https://tatusiowa.pl/blog/kategoria/gory/
+Redirect 301 /category/wyjazdy/ https://tatusiowa.pl/blog/kategoria/wyjazdy/
+Redirect 301 /category/rower/ https://tatusiowa.pl/blog/kategoria/rower/
+Redirect 301 /2018/05/07/majoweczka/ https://tatusiowa.pl/blog/majowka/
+Redirect 301 /2018/06/07/w-koncu-jest/ https://tatusiowa.pl/blog/w-koncu-jest/
+Redirect 301 /2018/06/08/pierwsze-koty-za-ploty/ https://tatusiowa.pl/blog/pierwsze-koty-za-ploty/
+Redirect 301 /2018/06/16/1257-m-n-p-m/ https://tatusiowa.pl/blog/1257-m-n-p-m/
+Redirect 301 /2018/07/10/guns-n-roses/ https://tatusiowa.pl/blog/guns-n-roses/
+Redirect 301 /2018/07/30/dalmacja/ https://tatusiowa.pl/blog/dalmacja/
+Redirect 301 /2018/08/04/wielki-chocz-rozdzial-1/ https://tatusiowa.pl/blog/wielki-chocz-rozdzial-1/
+Redirect 301 /2018/08/12/🤘-hewi-metal-szkraby-🤘/ https://tatusiowa.pl/blog/hewi-metal-szkraby/
+Redirect 301 /2018/11/04/warszawa/ https://tatusiowa.pl/blog/hewi-metal-szkraby/
+Redirect 301 /2018/11/03/jesien-zlote-liscie-spadaja-z-drzew/ https://tatusiowa.pl/blog/jesien-zlote-liscie-spadaja-z-drzew/
+Redirect 301 /2018/11/13/zakopane/ https://tatusiowa.pl/blog/zakopane/
+Redirect 301 /2019/04/06/w-oczekiwaniu-na-wiosne/ https://tatusiowa.pl/blog/w-oczekiwaniu-na-wiosne/
+Redirect 301 /2019/05/08/balaton-alsoors/ https://tatusiowa.pl/blog/balaton-alsoors/

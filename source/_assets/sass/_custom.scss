@@ -1,0 +1,72 @@
+#navbar, header, #search{
+    transition: all .3s ease;
+}
+
+.menu{
+    a{
+        @apply .text-gray-900;
+        &:hover{
+            @apply .text-red-700;
+        }
+    }
+}
+
+.glide__bullet {
+    @apply .bg-gray-300;
+    width: 12px;
+    height: 12px;
+}
+
+.glide__bullet--active {
+    @apply .bg-red-500;
+}
+
+.glide__bullet:hover, .glide__bullet:focus {
+    border: 2px solid white;
+    @apply .bg-red-500;
+}
+
+.gory{
+    @apply .text-blue-500;
+}
+
+.wyjazdy{
+    @apply .text-pink-500;
+}
+
+.rower{
+    @apply .text-orange-500;
+}
+
+.bg-gory{
+    @apply .bg-blue-500
+}
+
+.bg-wyjazdy{
+    @apply .bg-pink-500;
+}
+
+.bg-rower{
+    @apply .bg-orange-500;
+}
+
+.why{
+    background: url(/assets/img/question.svg) center left no-repeat;
+    background-size: contain;
+
+    @media all and (max-width: 1279px){
+        background: none;
+    }
+}
+
+.overlay{
+    background: rgba(0,0,0,.5);
+}
+
+.post-content img{
+    @apply .w-full;
+    @apply .h-full;
+    @apply .object-cover;
+    @apply .shadow-lg;
+    @apply .max-h-600;
+}
