@@ -17,6 +17,9 @@ return [
     'collections' => [
         'posts' => [
             'author' => 'Tomasz Knapczyk',
+            'filter' => function ($item) {
+                return $item->publish;
+            },
             'sort' => '-date',
             'path' => 'blog/{filename}',
             'cat' => function ($page, $allCategories) {

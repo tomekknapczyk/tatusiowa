@@ -9,6 +9,7 @@ categories: [wyjazdy]
 places: [polska]
 home_page: false
 image_path: posts/hewi-metal-szkraby/
+publish: true
 ---
 
 Od czasu gdy Zuzia pierwszy raz usłyszała "Dziewczynę z Kebabem", stała się fanką Nocnego Kochanka. Z czasem nauczyła się na pamięć większości tekstów, nie raz całkowicie myląc słowa lub tworząc nowe jak "smagudki".

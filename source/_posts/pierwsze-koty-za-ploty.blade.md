@@ -9,6 +9,7 @@ categories: [gory]
 places: [beskidy]
 home_page: false
 image_path: posts/magurka-2018/
+publish: true
 ---
 
 Udało się :) Może nie było to [Skrzyczne](https://pl.wikipedia.org/wiki/Skrzyczne) jak pierwotnie planowaliśmy ale może to nawet i lepiej. W końcu nie wiedzieliśmy jak Kinga będzie zachowywać się w nosidełku, a góra może sobie cierpliwie poczekać.

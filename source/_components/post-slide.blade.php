@@ -5,14 +5,14 @@
                 <img data-src="{{ $page->cloudinary }}c_scale,q_75,w_1024/{{ $page->cloudinaryId }}/covers/{{ $post->slide }}" alt="{{ $post->title }}" class="block sm:hidden h-72 object-cover relative z-0 mb-1 lazy">
                 <div class="p-5 md:p-0">
                     <h2 class="text-white text-xl md:text-2xl xl:text-3xl m-0">{{ $post->title }}</h2>
-                    <p class="text-gray-500 text-sm m-0 mb-0 md:mb-6">
+                    <p class="text-gray-500 text-sm m-0 mb-0 md:mb-6 mt-1">
                         {{ strftime("%e %B %Y", $post->date) }}
                         @foreach($post->cat($categories) as $category)
                             <a href="{{ $category->getUrl() }}" class="text-xs ml-1 {{ $category->getFilename() }}">{{ $category->title }}</a>
                         @endforeach
                     </p>
 
-                    <p class="text-sm xl:text-base my-2 text-white">{!! $post->getExcerpt(260) !!}</p>
+                    <p class="text-sm xl:text-base my-2 text-white">{!! $post->description !!}</p>
                     <div class="text-center mt-3 xl:mt-5 mb-10">
                         <a
                             href="{{ $post->getUrl() }}"

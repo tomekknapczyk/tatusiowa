@@ -9,6 +9,7 @@ categories: [wyjazdy]
 places: [polska]
 home_page: false
 image_path: posts/warszawa-2018/
+publish: true
 ---
 
 W związku z tym, że Zuzia trenuje gimnastykę artystyczną, to co jakiś czas bierze udział w zawodach rozgrywanych w różnych miejscach. Gdy dowiedzieliśmy się, że będzie startować w Warszawskich zawodach, to postanowiliśmy wykorzystać cały weekend aby przy okazji pozwiedzać trochę stolicę i odwiedzić rodzinkę. Nie znaliśmy dokładnego planu zawodów dlatego musieliśmy dostosować nasz plan do nieznanych godzin. Dużo dobrego słyszeliśmy o Centrum Nauki Kopernik i bardzo chcieliśmy zobaczyć ten cud, więc umieściliśmy go na początku listy dzięki czemu nie musieliśmy się spieszyć, gdyż zawody odbywały się dopiero kolejnego dnia. Wieczorem pierwszego dnia mieliśmy również spotkać się z Emilką, kuzynką Kasi. Zapychaczem czasu przed lub po zawodach miały być Łazienki Królewskie, a na koniec kawka z Hanią, moją kuzynką i jej świeżo poślubionym mężem Łukaszem.

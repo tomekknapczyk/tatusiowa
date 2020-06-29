@@ -9,6 +9,7 @@ categories: [gory, wyjazdy]
 places: [beskidy, polska]
 home_page: false
 image_path: posts/wiosna-2019/
+publish: true
 ---
 
 Zima nie obfitowała u nas w dużą ilość wycieczek jednak staraliśmy się na zapaść w sen zimowy i gdy tylko nadarzała się okazja uciekaliśmy z domu. Kinia w tym roku miała pierwszą okazję do zabaw na śniegu i nie omieszkała z niej skorzystać. Efektem tego był jej pierwszy bałwan. Tak na marginesie to bardzo spodobało jej się to słowo i ciągle słyszeliśmy "bał bał".

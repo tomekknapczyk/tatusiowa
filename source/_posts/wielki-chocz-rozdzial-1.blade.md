@@ -9,6 +9,7 @@ categories: [gory]
 places: [slowacja]
 home_page: false
 image_path: posts/chocz-1/
+publish: true
 ---
 
 Termometr w samochodzie wskazywał 26 stopni, chociaż była dopiero godzina 8. Byliśmy jednak zdecydowani i trochę nie świadomi tego jak wygląda droga dlatego pojechaliśmy. Gdy dojeżdżaliśmy do Orawskiego Zamku w oddali pojawił się nasz cel. W tym momencie Kasia ze zdziwieniem powiedziała: - To jest to? Tylko nie mów nic Zuzce. Szczyt zrobił na niej większe wrażenie niż myślała.

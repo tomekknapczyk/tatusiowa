@@ -9,6 +9,7 @@ categories: [wyjazdy]
 places: [baltyk]
 home_page: false
 image_path: posts/majowka-2018/
+publish: true
 ---
 
 Pewnego kwietniowego popołudnia, popijając kawkę na balkonie pomyślałem sobie na głos, że chciałbym wejść na latarnię morską i odetchnąć morskim powietrzem. Męczyła mnie bowiem już od kilku dni alergia na brzozę, której miałem już serdecznie dość. Myśl ta bardzo spodobała się Kasi i od tego momentu codziennie po kilka razy sprawdzaliśmy jaka pogoda szykuje się na długi weekend nad Bałtykiem. Do samego końca nie byliśmy pewni czy pojedziemy ale zdecydowaliśmy, że jedziemy. Najwyżej cały weekend będziemy grać w planszówki.

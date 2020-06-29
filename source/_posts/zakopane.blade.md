@@ -9,6 +9,7 @@ categories: [gory]
 places: [tatry, polska]
 home_page: false
 image_path: posts/zakopane-2018/
+publish: true
 ---
 
 Od dawna marzyliśmy z Kasią o tym, żeby pojechać gdzieś sami, bez dzieci. Wybraliśmy długi weekend listopadowy, a że w tym roku przypada 100-lecie odzyskania niepodległości przez Polskę, to zyskaliśmy jeden dodatkowy wolny dzień. Na miejsce naszej podróży wybraliśmy Bukowinę Tatrzańską. W planach jakiś spacer po Tatrach, Krupówki, Gubałówka, termy i co nam się jeszcze tylko wymyśli. Niestety Kinia jest jeszcze za mała, żeby zostać na parę dni u babci dlatego bierzemy ją ze sobą. I tak najważniejsze, że odpoczniemy od ciągłych kłótni i marudzeń starszych dzieciaków.

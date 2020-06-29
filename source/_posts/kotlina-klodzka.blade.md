@@ -10,6 +10,7 @@ places: [polska]
 categories: [wyjazdy]
 home_page: true
 image_path: posts/kotlina-klodzka/
+publish: true
 ---
 
 W te wakacje naszym celem było lepsze poznanie lokalnych destynacji turystycznych, bo jak mówi przysłowie - "Cudze chwalicie, swego nie znacie". Jednym z takich miejsc, o którym myśleliśmy już jakiś czas, była Kotlina Kłodzka i jej okolice. Korzystając z pięknie zapowiadającego się tygodnia zarezerwowaliśmy nocleg w Srebrnej Górze, spakowaliśmy manatki i pojechaliśmy

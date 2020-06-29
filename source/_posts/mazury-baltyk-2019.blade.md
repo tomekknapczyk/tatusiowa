@@ -3,13 +3,14 @@ extends: _layouts.post
 section: content
 title: Zwiedzania Polski ciąg dalszy
 date: 2019-08-18
-description: Kontynuując nasze tegoroczne zwiedzanie Polski nie mogło zabraknąć północnych regionów naszego kraju. Zuzia skorzystała z możliwości wybrania się ze swoim księdzem i oazą na obóz do miejscowości Rajgród na Mazurach. My natomiast po namowach naszej przyjaciółki Pauliny, postanowiliśmy pojechać na kilka dni nad Bałtyk, a konkretnie do miejscowości Jezierzany obok Jarosławca.
+description: Kontynuując nasze tegoroczne zwiedzanie Polski nie mogło zabraknąć północnych regionów naszego kraju.
 cover_image: mazury-baltyk-2019.jpg
 slide: mazury-baltyk-2019.jpg
 places: [polska, baltyk]
 categories: [wyjazdy]
 home_page: true
 image_path: posts/mazury-baltyk-2019/
+publish: true
 ---
 
 Kontynuując nasze tegoroczne zwiedzanie Polski nie mogło zabraknąć północnych regionów naszego kraju. Zuzia skorzystała z możliwości wybrania się ze swoim księdzem i oazą na obóz do miejscowości Rajgród na Mazurach. My natomiast po namowach naszej przyjaciółki Pauliny, postanowiliśmy pojechać na kilka dni nad Bałtyk, a konkretnie do miejscowości Jezierzany obok Jarosławca.

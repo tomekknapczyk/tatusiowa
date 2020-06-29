@@ -9,6 +9,7 @@ categories: [wyjazdy]
 places: [chorwacja]
 home_page: false
 image_path: posts/dalmacja/
+publish: true
 ---
 
 ##Przygotowania i podróż

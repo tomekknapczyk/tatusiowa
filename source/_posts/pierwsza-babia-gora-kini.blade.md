@@ -10,6 +10,7 @@ places: [beskidy]
 categories: [gory]
 home_page: true
 image_path: posts/pierwsza-babia-gora-kini/
+publish: true
 ---
 
 ##Spokojna niedziela

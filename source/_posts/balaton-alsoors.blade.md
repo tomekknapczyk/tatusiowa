@@ -9,6 +9,7 @@ categories: [wyjazdy]
 places: [balaton]
 home_page: false
 image_path: posts/balaton-2019/
+publish: true
 ---
 
 Odnoszę takie wrażenie, że po ubiegłorocznej majówce, większość właścicieli obiektów zwęszyła okazję na niezły zarobek. Ceny noclegów nad polskim morzem podniosły się średnio o połowę, dlatego w tym roku wybraliśmy odwrotny kierunek, a mianowicie Balaton. Ceny trochę niższe, odległość mniejsza, pogoda pewniejsza i kilka stopni cieplej. 

@@ -10,6 +10,7 @@ places: []
 categories: [gory]
 home_page: false
 image_path: posts/deuter/
+publish: true
 ---
 
 Trochę trzeba było czekać na tę chwilę ale na pewno było warto.

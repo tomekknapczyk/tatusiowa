@@ -9,6 +9,7 @@ categories: [gory]
 places: [beskidy]
 home_page: false
 image_path: posts/jesien-2018/
+publish: true
 ---
 
 Lato tego roku było wyjątkowo gorące, a jesień nie chcąc być gorsza również dała nam sporo słonecznych chwil. Nie omieszkaliśmy ich wykorzystać czego efektem były spacery na pobliski Dębowiec.

@@ -9,6 +9,7 @@ categories: [wyjazdy]
 places: [polska]
 home_page: false
 image_path: posts/guns-n-roses/
+publish: true
 ---
 
 Kiedy inny słuchali Backstreet Boysów czy innych Boys Bandów, Kasia po kryjomu przebierała się za Axla i przed lustrem dawała koncerty Gunsów. Oglądając ich teledyski wiedziała, że teksty są skierowane właśnie do niej, a Axl patrzy dokładnie na nią. Podobnie było ze Slashem. Dlatego też kiedy usłyszała o ponownym zejściu się zespołu i trasie koncertowej z niecierpliwością czekała na informacje o koncercie w Polsce. Dwa lata temu byliśmy na koncercie Slasha ale zobaczyć wszystkich Gunsów to jednak jeszcze większe przeżycie. Na koncert do Gdańska rok temu nie mieliśmy szans jechać, bo Kasia była w ciąży, więc gdy tylko pojawiła się informacja o koncercie w Chorzowie kupiliśmy dwa bilety jak najbliżej sceny, bo nie wiadomo czy jeszcze kiedyś zobaczymy ich w takim składzie. Bilety kupiliśmy w grudniu, także trochę musieliśmy poczekać ale czas szybko mija. Koncert odbywał się na Stadionie Śląskim więc nie mieliśmy daleko. Dzieciakom załatwiliśmy opiekę w postaci babci, której bardzo dziękujemy, i pojechaliśmy.

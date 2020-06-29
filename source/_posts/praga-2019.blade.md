@@ -3,13 +3,14 @@ extends: _layouts.post
 section: content
 title: Prażymy się w Pradze
 date: 2019-06-29
-description: Dużo słyszeliśmy dobrego o Pradze więc postanowiliśmy to sprawdzić.
+description: Dużo dobrego słyszeliśmy o Pradze więc postanowiliśmy to sprawdzić.
 cover_image: praga-2019.jpg
 slide: praga-2019.jpg
 places: [czechy]
 categories: [wyjazdy]
 home_page: true
 image_path: posts/praga-2019/
+publish: true
 ---
 
 ##Jedziemy - niekoniecznie samochodem
