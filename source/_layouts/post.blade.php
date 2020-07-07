@@ -13,7 +13,7 @@
     </section>
     <section class="bg-gray-900 w-full pt-2 pb-5 flex items-center justify-between flex-wrap px-8 xl:px-20 xxl:px-64 shadow-md">
         <div class="w-full xl:w-2/3">
-            <h1 class="leading-normal mt-0 mb-1 text-white text-xl sm:text-2xl lg:text-3xl xxl:text-5xl">{{ $page->title }}</h1>
+            <h1 class="leading-normal mt-0 mb-1 font-semibold text-white text-xl sm:text-2xl xl:text-3xl xxl:text-5xl">{{ $page->title }}</h1>
             <p class="text-white text-sm lg:text-lg xl:text-2xl font-light md:mt-0 mb-4">
                 Opublikowane przez <span class="text-gray-500 font-normal">{{ $page->author }}</span> w dniu <span class="text-gray-500 font-normal">{{ strftime("%e %B %Y", $page->date) }}</span>
             </p>

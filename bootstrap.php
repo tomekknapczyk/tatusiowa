@@ -1,4 +1,4 @@
-    <?php
+<?php
 
 use TightenCo\Jigsaw\Jigsaw;
 

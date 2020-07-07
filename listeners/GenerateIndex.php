@@ -17,6 +17,6 @@ class GenerateIndex
             ];
         })->values());
 
-        file_put_contents($jigsaw->getDestinationPath() . '/index.json', json_encode($data));
+        file_put_contents($jigsaw->getDestinationPath() . '/index.json', json_encode($data, JSON_UNESCAPED_UNICODE));
     }
 }
