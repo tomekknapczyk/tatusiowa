@@ -10,7 +10,7 @@ places: [beskidy]
 categories: [gory]
 home_page: true
 image_path: posts/pilsko-2020/
-publish: false
+publish: true
 ---
 
 ## Planowanie
