@@ -8,7 +8,7 @@ cover_image: pierwsza-babia-gora-kini.jpg
 slide: pierwsza-babia-gora-kini.jpg
 places: [beskidy]
 categories: [gory]
-home_page: true
+home_page: false
 image_path: posts/pierwsza-babia-gora-kini/
 publish: true
 ---

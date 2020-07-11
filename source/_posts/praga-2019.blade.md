@@ -8,7 +8,7 @@ cover_image: praga-2019.jpg
 slide: praga-2019.jpg
 places: [czechy]
 categories: [wyjazdy]
-home_page: true
+home_page: false
 image_path: posts/praga-2019/
 publish: true
 ---
