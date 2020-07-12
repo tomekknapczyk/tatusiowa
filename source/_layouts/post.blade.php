@@ -25,7 +25,7 @@
             @foreach($page->miejsca($places) as $place)
                 <div class="w-auto flex items-center justify-start flex-wrap">
                     <a href="{{ $place->getUrl() }}">
-                        <img src="{{ $page->cloudinary }}c_scale,q_80,w_300/{{ $page->cloudinaryId }}/places/{{ $place->cover_image }}" alt="{{ $place->title }}" class="w-10 h-10 xl:w-16 xl:h-16 object-cover rounded-full overflow-hidden shadow-lg">
+                        <img src="{{ $page->cloudinary }}c_scale,q_80,w_128/{{ $page->cloudinaryId }}/places/{{ $place->cover_image }}" alt="{{ $place->title }}" class="w-10 h-10 xl:w-16 xl:h-16 object-cover rounded-full overflow-hidden shadow-lg">
                     </a>
                     <a href="{{ $place->getUrl() }}" class="text-lg md:text-xl m-0 ml-3 text-white mr-5">{{ $place->title }}</a>
                 </div>
@@ -55,7 +55,7 @@
                 <div class="flex w-full sm:w-5/12 items-stretch justify-between flex-row-reverse flex-wrap mb-10 shadow-lg">
                     <div class="w-full md:w-1/3">
                         <a href="{{ $next->getUrl() }}" title="Czytaj dalej - {{ $next->title }}">
-                            <img src="{{ $next->cloudinary }}c_scale,q_80,w_300/{{ $next->cloudinaryId }}/covers/{{ $next->slide }}" alt="{{ $next->title }}" class="sm:block h-32 md:h-full w-full object-cover">
+                            <img src="{{ $next->cloudinary }}c_scale,q_80,w_300/{{ $next->cloudinaryId }}/covers/{{ $next->slide }}" alt="{{ $next->title }}" class="sm:block h-32 md:h-full w-full object-cover lazy" loading="lazy">
                         </a>
                     </div>
                     <div class="flex flex-col mb-4 w-full md:w-2/3 px-3 justify-between">
@@ -74,7 +74,7 @@
                 <div class="flex w-full sm:w-5/12 items-stretch justify-between flex-wrap mb-10 shadow-lg">
                     <div class="w-full md:w-1/3">
                         <a href="{{ $previous->getUrl() }}" title="Czytaj dalej - {{ $previous->title }}">
-                            <img src="{{ $previous->cloudinary }}c_scale,q_80,w_300/{{ $previous->cloudinaryId }}/covers/{{ $previous->slide }}" alt="{{ $previous->title }}" class="sm:block h-32 md:h-full w-full object-cover">
+                            <img src="{{ $previous->cloudinary }}c_scale,q_80,w_300/{{ $previous->cloudinaryId }}/covers/{{ $previous->slide }}" alt="{{ $previous->title }}" class="sm:block h-32 md:h-full w-full object-cover lazy" loading="lazy">
                         </a>
                     </div>
                     <div class="flex flex-col mb-4 w-full md:w-2/3 px-3 justify-between">

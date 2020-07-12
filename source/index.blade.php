@@ -68,7 +68,7 @@
                     <div class="w-1/2 flex items-center justify-around flex-wrap mb-10">
                         <div class="w-full md:w-1/2 text-center">
                             <a href="{{ $place->getUrl() }}" class="font-bold text-xl m-0">
-                                <img data-src="{{ $page->cloudinary }}c_scale,q_80,w_300/{{ $page->cloudinaryId }}/places/{{ $place->cover_image }}" alt="{{ $place->title }}" class="w-32 h-32 object-cover rounded-full overflow-hidden shadow-lg m-auto lazy">
+                                <img data-src="{{ $page->cloudinary }}c_scale,q_80,w_256/{{ $page->cloudinaryId }}/places/{{ $place->cover_image }}" alt="{{ $place->title }}" class="w-32 h-32 object-cover rounded-full overflow-hidden shadow-lg m-auto lazy">
                             </a>
                         </div>
                         <div class="px-2 py-4 w-full md:w-1/2 text-center md:text-left">

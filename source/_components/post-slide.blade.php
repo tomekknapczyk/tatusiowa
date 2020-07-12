@@ -2,7 +2,12 @@
     @if($post->slide)
         <div class="flex items-stretch">
             <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center flex-col p-0 md:p-5 slide-info z-10 bg-gray-900">
-                <img data-src="{{ $page->cloudinary }}c_scale,q_75,w_1024/{{ $page->cloudinaryId }}/covers/{{ $post->slide }}" alt="{{ $post->title }}" class="block sm:hidden h-72 object-cover relative z-0 mb-1 lazy">
+                <img 
+                    data-src="{{ $page->cloudinary }}c_scale,q_75,w_600/{{ $page->cloudinaryId }}/covers/{{ $post->slide }}"
+                    alt="{{ $post->title }}"
+                    class="block sm:hidden h-72 object-cover relative z-0 mb-1 lazy"
+                    loading="lazy"
+                >
                 <div class="p-5 md:p-0">
                     <h2 class="text-white text-xl md:text-2xl xl:text-3xl m-0">{{ $post->title }}</h2>
                     <p class="text-gray-500 text-sm m-0 mb-0 md:mb-6 mt-1">
@@ -22,12 +27,16 @@
                     </div>
                 </div>
             </div>
-            <img data-srcset="{{ $page->cloudinary }}c_scale,q_75,w_1024/{{ $page->cloudinaryId }}/covers/{{ $post->slide }} 1024w,
+            <img 
+                data-srcset="{{ $page->cloudinary }}c_scale,q_75,w_1024/{{ $page->cloudinaryId }}/covers/{{ $post->slide }} 1024w,
                          {{ $page->cloudinary }}c_scale,q_75,w_1600/{{ $page->cloudinaryId }}/covers/{{ $post->slide }} 1920w"
                  data-sizes="75vw,
                         (min-width: 1280px) 100vw"
-                 data-src="{{ $page->cloudinary }}c_scale,q_75,w_1600/{{ $page->cloudinaryId }}/covers/{{ $post->slide }}" 
-                 alt="{{ $post->title }}" class="hidden sm:block h-70 min-h-500 max-h-700 sm:w-1/2 md:w-2/3 lg:w-3/4 xl:w-4/5 xxl:w-5/6 object-cover relative z-0 lazy">
+                 data-src="{{ $page->cloudinary }}c_scale,q_75,w_1600/{{ $page->cloudinaryId }}/covers/{{ $post->slide }}"
+                 alt="{{ $post->title }}"
+                 class="hidden sm:block h-70 min-h-500 max-h-700 sm:w-1/2 md:w-2/3 lg:w-3/4 xl:w-4/5 xxl:w-5/6 object-cover relative z-0 lazy"
+                 loading="lazy"
+            >
         </div>
     @endif
 </li>
